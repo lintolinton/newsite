@@ -22,6 +22,8 @@
           );
 
           */
+           var btn = document.getElementById("login_btn");
+           btn.disabled = 'true';
 
 
           var template_params = {
