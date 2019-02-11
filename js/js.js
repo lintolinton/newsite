@@ -38,7 +38,7 @@
             emailjs.send(service_id, template_id, template_params)
             .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
-            window.location.href = "account.html";
+            window.location.href = "thankyou.html";
               }, function(error) {
                 console.log('FAILED...', error);
               });
